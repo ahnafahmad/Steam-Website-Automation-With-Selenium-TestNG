@@ -71,7 +71,6 @@ public class SearchTestRunner extends Setup {
         String secondActualSearch = searchPage.searchAssertion.get(1).getText();
         String secondExpectedSearch = "Dota 2 Player Profiles";
         Assert.assertTrue(secondActualSearch.contains(secondExpectedSearch));
-
     }
 
 }
