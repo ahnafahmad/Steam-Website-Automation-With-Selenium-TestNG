@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Steam Game Searching Assertion Automation Suite">
+<test name="User can Search Game Name successfully">
+    <classes>
+        <class name="testRunner.SearchTestRunner"/>
+    </classes>
+</test>
+</suite>
