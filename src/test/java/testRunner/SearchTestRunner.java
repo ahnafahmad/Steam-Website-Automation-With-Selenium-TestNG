@@ -17,7 +17,7 @@ public class SearchTestRunner extends Setup {
     Utils utils;
 
     @Test(priority = 1, description = "User can search a game name successfully")
-    public void SearchGame01() throws InterruptedException, IOException, ParseException {
+    public void UserCanSearchGameName() throws InterruptedException, IOException, ParseException {
 
         driver.get("https://store.steampowered.com");
 
@@ -58,7 +58,7 @@ public class SearchTestRunner extends Setup {
     }
 
     @Test(priority = 2, description = "User can search another game name successfully")
-    public void SearchGame02() throws IOException, ParseException, InterruptedException {
+    public void UserCanSearchAnotherGameName() throws IOException, ParseException, InterruptedException {
 
         searchPage = new SearchPage(driver);
 
